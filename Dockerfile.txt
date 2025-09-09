@@ -1,0 +1,7 @@
+FROM ubuntu : 23
+
+MAINTAINER pavan
+
+RUN apt-get update
+
+CMD ["echo", "Hellow World....! from my first docker image"]
