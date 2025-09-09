@@ -1,6 +1,6 @@
-FROM ubuntu
+FROM ubuntu : 23
 
-MAINTAINER ram <ramanji.devops@gmail.com>
+MAINTAINER pavan
 
 RUN apt-get update
 
